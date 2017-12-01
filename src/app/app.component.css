@@ -1,0 +1,8 @@
+#row{
+    display: inline-block;
+}
+.box{
+    /* display: inline-block; */
+    width: 30px;
+    height: 60px;
+}

@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Retro Barcode Generator
+  </h1>
+  <div id="row" *ngFor="let color of myArr">
+    <div class="box" [ngStyle]="{
+      'background-color': color
+    }" ></div>
+  </div>
+</div>
